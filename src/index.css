@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #0d192c;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@layer components {
+  .Heading {
+    @apply font-outfit font-semibold text-[22px] leading-[28px];
+  }
+
+  .Body {
+    @apply font-outfit font-light text-[18px] leading-[26px];
+  }
+
+  .Caption {
+    @apply font-outfit text-[16px] leading-[20px];
+  }
+
+  .CaptionBold {
+    @apply font-outfit font-semibold text-[16px] leading-[20px];
+  }
+}
